@@ -4,13 +4,13 @@ body, html{
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	/*::-moz-selection {
+	::-moz-selection {
   background: #000;
   color: #fff; }
 
 ::selection {
   background: #000;
-  color: #fff; }*/
+  color: #fff; }
 }
 .text-black {
   color: #000 !important; }
@@ -189,16 +189,16 @@ nav a:hover::before{
 	min-height: 500px;
 	opacity: 1;
 }
-.caption{
-	position: absolute;
+/*.caption{*/
+	/*position: absolute;*/
 	/*left:0;*/
-	top: 40%;
-	width: 100%;
-	text-align: center;
-	color:black;
-	display: block;
+	/*top: 40%;*/
+	/*width: 100%;*/
+	/*text-align: center;*/
+	/*color:black;*/
+	/*display: block;*/
 	/*box-sizing: border-box;*/
-}
+/*}*/
 .parallax2 p{
 	font-size: 200%;
 	color: white;
@@ -705,3 +705,4 @@ nav a:hover::before{
 .templateux-footer .footer-social a { color: #b3b3b3; position: relative; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; font-size: 26px; }
 
 .templateux-footer .footer-social a:hover, .templateux-footer .footer-social a:focus { color: #dc3545; -webkit-transform: scale(1.7); -ms-transform: scale(1.7); transform: scale(1.7); }
+
